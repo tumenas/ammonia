@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{ammonia}\n\\alias{ammonia}\n\\title{Calculation of un-ionized ammonia (NH3) in total ammonia aqueous solution}\n\\usage{\nammonia(total_ammonia, temperature, ph, type_of_temperature)\n}\n\\arguments{\n\\item{total_ammonia}{Total ammonia (NH3 + NH4) in the aqueous solution}\n\n\\item{temperature}{Temperature of the aqueous solution}\n\n\\item{ph}{pH of the aqueous solution}\n\n\\item{type_of_temperature}{Unit of measure of temperature, \"K\" for Kelvin, \"C\" for Celsius and \"F\" for Fahrenheit }}\n\n\n\\description{\nThe total ammonia in aqueous solution is present in two chemical species: un-ionized\nammonia, NH 3 , and the ionized form, NH 4 +. The NH 3 species is the one more toxic for\naquatic organisms, but current analytical methods do not permit measurement of NH 3,\n and NH 4 + separately. The concentration of each chemical species in the total ammonia is dependent of a number of factors, with the pH and the temperature being the most\nimportant.\n\nThe equation presented by Emerson et al. (1975) permits the calculation of\nthe NH 3 fraction from the total ammonia measured in freshwater, as long as you also\nhave the pH and temperature data from the sample.\nThe calculus first calculates the pK a, which is the ionization constants of the ammonium ion.\nTo calculate the pK a value of the sample, we use the equation:\n\n\\deqn{ pKa = 0.09018 + 2727.92/T}\n\nwhere T is the temperature in Kelvin.\n\nTo calculate the fraction of NH3 , we use the equation:\n\n\\deqn{f = 1/(10^(pKa-pH)+1)}\n\nNote: the equation for pK a is invalid outside the temperature range of 0-50 C (273-323\nKelvin), because is the range where the pK a values used to make the equation were\nobtained empirically.\n}\n\\references{\nEMERSON, K.; RUSSO, R.C.; LUND, R.E. et al. \\emph{Aqueous ammonia\nequilibrium calculations: Effect of pH and temperature.} Journal of Fisheries Research\nBoard of Canada, v.32, p.2379-2383, 1975.\n}\n\n\n\\examples{\nammonia(5.14, 294.4, 6.9, \"K\")\nammonia(0.98, 27.7, 8.05, \"C\")\n\n}\n",
+    "created" : 1480775455775.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1541732735",
+    "id" : "9E368D94",
+    "lastKnownWriteTime" : 1480840008,
+    "last_content_update" : 1480840008013,
+    "path" : "~/Papers/ammonia/ammonia/man/ammonia.Rd",
+    "project_path" : "man/ammonia.Rd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_doc"
+}
