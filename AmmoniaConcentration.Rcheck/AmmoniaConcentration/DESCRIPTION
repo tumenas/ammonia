@@ -1,0 +1,11 @@
+Package: AmmoniaConcentration
+Version: 0.1
+Author: Monica Serra <monicaserra.bio04@gmail.com> and Felipe Tumenas Marques <tumenas@gmail.com>
+Maintainer: Felipe Tumenas Marques <tumenas@gmail.com>
+Title: Un-Ionized Ammonia Concentration Calculation
+Description: AmmoniaConcentration provides a function to calculate the concentration of un-ionized ammonia in the total ammonia in aqueous solution using the pH and temperature values.
+License: MIT + file LICENSE
+URL: https://github.com/tumenas/ammonia
+NeedsCompilation: no
+Packaged: 2016-12-04 14:20:24 UTC; tumenas
+Built: R 3.3.2; ; 2016-12-04 14:31:39 UTC; unix
