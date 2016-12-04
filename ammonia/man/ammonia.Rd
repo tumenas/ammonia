@@ -39,6 +39,10 @@ Note: the equation for pK a is invalid outside the temperature range of 0-50 C (
 Kelvin), because is the range where the pK a values used to make the equation were
 obtained empirically.
 }
+\value{
+The function returns a list with all steps of the calculation.
+}
+
 \references{
 EMERSON, K.; RUSSO, R.C.; LUND, R.E. et al. \emph{Aqueous ammonia
 equilibrium calculations: Effect of pH and temperature.} Journal of Fisheries Research
